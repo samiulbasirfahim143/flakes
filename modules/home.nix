@@ -4,6 +4,7 @@
     ./window-manager
     ./neofetch
     ./shell
+    ./kitty
     ./config.nix
   ];
 }

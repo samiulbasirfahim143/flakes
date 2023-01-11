@@ -9,7 +9,7 @@
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-
+  boot.kernelPackages = pkgs.linuxPackages_xanmod_latest;
   # Set your time zone.
   time.timeZone = "Asia/Dhaka";
 
@@ -34,6 +34,7 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+    # linuxPackages_xanmod_latest
     i3-gaps
     polybar
   ];

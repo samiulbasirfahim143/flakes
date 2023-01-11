@@ -34,5 +34,6 @@
     firefox
     tree
     i3lock-color
+    eww
   ];
 }

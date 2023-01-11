@@ -66,6 +66,7 @@ in
         "Mod1+b" = "exec firefox";
         "Mod1+v" = "exec pavucontrol";
         "${modifier}+Return" = "exec kitty";
+        "${modifier}+b" = "exec polybar-msg cmd toggle";
         "${modifier}+Shift+space" = "focus mode_toggle";
         "${modifier}+space" = "floating toggle";
         "${modifier}+z" = "exec " + variables.applicationMenu;

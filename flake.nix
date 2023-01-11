@@ -1,5 +1,4 @@
 {
-  description = "my system config of nixos";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";
     home-manager.url = "github:nix-community/home-manager";
@@ -19,7 +18,9 @@
       nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs; };
-          modules = [ ./host/configuration.nix ];
+          modules = [
+            ./host/configuration.nix
+          ];
         };
       };
       homeConfigurations = {

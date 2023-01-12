@@ -34,9 +34,9 @@
         "85:class_g = 'Polybar'"
       ];
       blur-background-exclude = [
-  	"window_type = 'maim'"
-   	"class_g = 'slop'"
-];
+        "window_type = 'maim'"
+        "class_g = 'slop'"
+      ];
     };
   };
 }

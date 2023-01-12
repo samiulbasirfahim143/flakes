@@ -34,7 +34,6 @@
     firefox
     tree
     i3lock-color
-  udisks
-  hyprland
+    gparted
   ];
 }

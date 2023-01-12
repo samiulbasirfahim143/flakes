@@ -18,9 +18,9 @@ Terminal + vscode
 ├── modules
 │   ├── config.nix
 │   ├── home.nix
-│   ├── hyprland
+│   ├── kitty
 │   │   ├── default.nix
-│   │   └── hyprland.conf
+│   │   └── kitty.nix
 │   ├── neofetch
 │   │   ├── config.nix
 │   │   ├── default.nix

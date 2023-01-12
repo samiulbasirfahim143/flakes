@@ -5,6 +5,7 @@
     ./neofetch
     ./shell
     ./kitty
+    ./picom
     ./config.nix
   ];
 }

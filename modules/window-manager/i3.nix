@@ -78,11 +78,11 @@ in
       startup = [
         {
           command = "polybar -c ~/.config/polybar/config-back.ini";
-          always = false;
+          always = true;
           notification = false;
         }
         {
-          command = "workspace number 10";
+          command = "i3 workspace number 1";
           always = false;
           notification = false;
         }

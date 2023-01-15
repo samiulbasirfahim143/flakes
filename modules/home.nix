@@ -7,5 +7,6 @@
     ./kitty
     ./picom
     ./config.nix
+#    ./neovim
   ];
 }

@@ -25,7 +25,6 @@
     scrot
     lxappearance
     unzip
-    neovim
     nodePackages.nodemon
     pulseaudio-ctl
     playerctl
@@ -35,5 +34,9 @@
     tree
     i3lock-color
     gparted
+    neovide
+    neovim
+    gcc
+    vlc
   ];
 }

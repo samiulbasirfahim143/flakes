@@ -30,7 +30,7 @@ in
           { window_role = "Preferences"; }
           { window_type = "dialog"; }
           { window_type = "menu"; }
-          { class = "kitty"; }
+          #{ class = "kitty"; }
           { class = "Pavucontrol"; }
           { class = "Nemo"; }
           { class = "Lxappearance"; }
@@ -83,6 +83,11 @@ in
         }
         {
           command = "i3 workspace number 1";
+          always = false;
+          notification = false;
+        }
+        {
+          command = "xrandr --output HDMI-A-0 --set TearFree on";
           always = false;
           notification = false;
         }

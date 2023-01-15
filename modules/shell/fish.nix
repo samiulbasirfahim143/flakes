@@ -7,7 +7,14 @@
         update-home = "home-manager switch --flake /home/fahim/flakes/.#fahim@nixos";
         update-nixos = "sudo nixos-rebuild switch --flake /home/fahim/flakes/.#";
         n = "clear && neofetch";
+    	v = "nvim";
       };
+    };
+    starship = {
+        enable = true;
+    };
+    zoxide = {
+        enable = false;
     };
   };
 }
